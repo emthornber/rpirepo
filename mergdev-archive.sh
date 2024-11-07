@@ -11,7 +11,13 @@
 #   03 November, 2024 - E M Thornber
 #   Corrected repo URL
 #
+#   07 November, 2024 - E M Thornber
+#   Switch to Github repo
+#
 ################################################################################
+
+# Apt Repository URL on Github
+REPOURL="https://emthornber.github.io/rpirepo"
 
 # -e - exit immediately if a command exits with non-zero status
 # -u - treat unset variables as an error when substituting
@@ -99,8 +105,8 @@ apt-get update
 # shellcheck disable=SC2086
 apt-get install -y ${packages}
 
-test -n "${get_keyring}" && (wget -O - https://repo.littlegarth.org.uk/raspbian/gpg-pubkey.asc 2>/dev/null | gpg --dearmor - > /usr/share/keyrings/mergdev-archive-keyring.gpg)
+test -n "${get_keyring}" && (wget -O - ${REPOURL}/raspbian/gpg-pubkey.asc 2>/dev/null | gpg --dearmor - > /usr/share/keyrings/mergdev-archive-keyring.gpg)
 
-echo "deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://repo.littlegarth.org.uk/raspbian/ ${release} main" > /etc/apt/sources.list.d/mergdev.list
+echo "deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] ${REPOURL}/raspbian/ ${release} main" > /etc/apt/sources.list.d/mergdev.list
 
 apt-get update

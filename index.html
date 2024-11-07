@@ -35,7 +35,7 @@
 			<p>Obtain a copy of our signing key:</p>
 
 			<code>
-				wget -O - <a href="https://repo.littlegarth.org.uk/raspbian/gpg-pubkey.asc">https://repo.littlegarth.org.uk/raspbian/gpg-pubkey.asc</a> 2&gt;/dev/null |&#11168;<br>
+				wget -O - <a href="https://emthornber.github.io/rpirepo/raspbian/gpg-pubkey.asc">https://emthornber.github/.io/raspbian/gpg-pubkey.asc</a> 2&gt;/dev/null |&#11168;<br>
 					gpg --dearmor - |&#11168;<br>
 					sudo tee /usr/share/keyrings/mergdev-archive-keyring.gpg &gt;/dev/null&#11168;
 			</code>
@@ -48,7 +48,7 @@
 			<p>For For Raspbian bookworm:</p>
 
 			<code>
-				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://repo.littlegarth.org.uk/raspbian/ bookworm main' |&#11168;<br>
+				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://emthornber.github.io/repo/raspbian/ bookworm main' |&#11168;<br>
 				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#11168;<br>
 				sudo apt-get update&#11168;<br>
 			</code>

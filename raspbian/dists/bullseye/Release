@@ -1,0 +1,19 @@
+Origin: LGMonitor.local
+Label: MERG Raspbian Packages
+Codename: bullseye
+Date: Tue, 29 Aug 2023 12:35:56 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for MERG raspbian packages
+MD5Sum:
+ a58c46a74a60a8224b296d96e61769f8 559 main/binary-armhf/Packages
+ acd52fdbdedc8cda229d6a91ba8240f1 416 main/binary-armhf/Packages.gz
+ 3dbcdbea49d28b5c6fd51b4a6ce38b65 145 main/binary-armhf/Release
+SHA1:
+ 0ab8ccf09824a01a3deb62f7a0981feae3eebedc 559 main/binary-armhf/Packages
+ ba2ce72a14b17d23e1178d3c6cbfa0983cc6a95c 416 main/binary-armhf/Packages.gz
+ c006243110e9b390257400589f3ee2ac487a8979 145 main/binary-armhf/Release
+SHA256:
+ c68aa410f5fbfcc71c682cd0e14ed883ec868446867fa3a7858d4cf609a89357 559 main/binary-armhf/Packages
+ 0eda706edf05828598fa3f485a2b73875bd119c61be2c3bf32649e0d9d54871d 416 main/binary-armhf/Packages.gz
+ 8151fb9cde7b081fe888be26e6dd2fd03089719938dc9ad86d9a0d06c8b770dd 145 main/binary-armhf/Release

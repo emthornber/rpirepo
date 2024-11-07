@@ -1,0 +1,49 @@
+Package: autowap
+Version: 1.0.1
+Maintainer: Enchanted Systems Limited
+Architecture: all
+Priority: optional
+Section: misc
+Filename: pool/main/a/autowap/autowap_1.0.1_all.deb
+Size: 2696
+SHA256: 0713e8fc459a80b50e8fcc453a6230fd668e22a2a4cc3fd3adf30b658588c116
+SHA1: dc74a838fde534c8d7054e02ed6b167133baa695
+MD5sum: 062f28a83afe6fcfc915144789dc2fcc
+Description: Create a WAP on a RPi if home WiFi is not available
+ Copyright: 2023 merg.org.uk
+ A service to set up a WAP if no configured WiFi routers can be found
+Depends: network-manager
+Conflicts: autohs
+
+Package: canpi-server
+Version: 1.0.4
+Maintainer: Enchanted Systems Limited
+Architecture: armhf
+Priority: optional
+Section: misc
+Filename: pool/main/c/canpi-server/canpi-server_1.0.4_armhf.deb
+Size: 111592
+SHA256: bf5d165b8c53f863b4a0889b53f965dc25ed8b02b4f1c784309bc71311ccd07b
+SHA1: 931a0727cfacbdf1bb6a5a6a042a3abc3946fdf5
+MD5sum: 5ae8f86a1d6b771a3a57c859dd3cdcf0
+Description: Interface to MERG CBUS via CANPiCAP
+ Copyright: 2024 MERG
+ Interfaces MERG-CANBUS protocol with JMRI Engine Driver application.
+Depends: avahi-daemon, avahi-utils, debconf, can-utils, liblog4cpp5v5
+
+Package: canpi-web-app-ssr
+Version: 0.1.5
+Maintainer: Enchanted Systems Limited
+Architecture: armhf
+Priority: optional
+Section: misc
+Filename: pool/main/c/canpi-web-app-ssr/canpi-web-app-ssr_0.1.5_armhf.deb
+Size: 2877092
+SHA256: 3baba21d7640435be47b4d8beb671ff428d09a009cd4f4da8c7cb3d1cf0a3787
+SHA1: 553a3acb3a63ddbc341f0e21c3320a07eed3486f
+MD5sum: 5bbb93a78998f6f337dbbf8078ae567c
+Description: Maintain Hotspot and CanPi configurations
+ Copyright: 2024 MERG
+ Web Application for the maintenance of Hotspot and CanPi configurations
+Depends: debconf
+

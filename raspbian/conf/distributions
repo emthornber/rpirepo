@@ -1,0 +1,8 @@
+Origin: repo.littlegarth.org.uk
+Label: MERG Raspbian Packages
+Codename: bookworm
+Architectures: armhf
+Components: main
+Description: APT repository for MERG raspbian packages
+SignWith: DCB675C010D155AB
+

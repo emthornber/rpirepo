@@ -1,0 +1,5 @@
+Component: main
+Origin: LGMonitor.local
+Label: MERG Raspbian Packages
+Architecture: armhf
+Description: Apt repository for MERG raspbian packages

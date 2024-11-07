@@ -1,0 +1,16 @@
+Package: autohs
+Version: 0.74.1
+Maintainer: Enchanted Systems Limited
+Architecture: all
+Priority: optional
+Section: misc
+Filename: pool/main/a/autohs/autohs_0.74.1_all.deb
+Size: 5320
+SHA256: 73e61cc5ae68142022383a1ecbf33a7549c24c47085f46bcad4c167a4ee8464e
+SHA1: 4442ca3aa833ce9e8ee2c6918a175fcd9500da64
+MD5sum: 55f2ce03e850b7e8f53f34ab275990a2
+Description: Create a WAP on a RPi if no WiFi available
+ Copyright: 2022 RaspberryConnect.com
+ A service to set up a WAP if no configured WiFi routers can be found
+Depends: dhcpcd5, dnsmasq, hostapd, wpasupplicant
+

@@ -1,0 +1,5 @@
+Component: main
+Origin: repo.littlegarth.org.uk
+Label: MERG Raspbian Packages
+Architecture: armhf
+Description: APT repository for MERG raspbian packages

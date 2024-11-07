@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<title>MERG-DEV APT Repository</title>
+	<style type="text/css">
+		#footer {
+			text-align: center;
+			font-size: 10pt;
+		}
+
+		;
+	</style>
+</head>
+
+<body>
+	<h1>MERG-DEV APT Repository</h1>
+
+	<p>The APT repository of the Model Electonic Railway Group, which is used for hosting Raspbian packages.</p>
+
+	<p>The current support is for Raspbian Bookworm (Debian 12) in our repository. The repositories support ARM
+		(32-bit).</p>
+
+	<p>To add the repository to your installation, run the <a href="mergdev-archive.sh" download>mergdev-archive.sh</a> script,
+		or do the following in order:
+
+	<ol>
+		<li>
+			<p>You may need to install the following packages:</p>
+
+			<code> sudo apt-get update</code>&#11168;<br>
+			<code> sudo apt-get install ca-certificates gpg wget&#11168;</code>
+		</li>
+
+		<li>
+			<p>Obtain a copy of our signing key:</p>
+
+			<code>
+				wget -O - <a href="https://repo.littlegarth.org.uk/raspbian/gpg-pubkey.asc">https://repo.littlegarth.org.uk/raspbian/gpg-pubkey.asc</a> 2&gt;/dev/null |&#11168;<br>
+					gpg --dearmor - |&#11168;<br>
+					sudo tee /usr/share/keyrings/mergdev-archive-keyring.gpg &gt;/dev/null&#11168;
+			</code>
+		</li>
+
+		<li>
+
+			<p>Add the repository to your sources list and update.</p>
+
+			<p>For For Raspbian bookworm:</p>
+
+			<code>
+				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://repo.littlegarth.org.uk/raspbian/ bookworm main' |&#11168;<br>
+				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#11168;<br>
+				sudo apt-get update&#11168;<br>
+			</code>
+		</li>
+	</ol>
+
+	<p>Now you can install any package from our APT repository. As an example, try installing the <code>autowap</code>
+		package:</p>
+
+	<code>
+		sudo apt-get install autowap&#11168;
+	</code>
+
+	<p>For all questions and concerns, please contact <a href="mailto:mark.thornber@merg.org.uk">mark.thornber@merg.org.uk</a>.
+
+		<hr />
+
+	<footer id="footer">Copyright &copy; 2024 Model Electronic Railway Group | <a
+			href="https://www.merg.org.uk/">https://www.merg.org.uk/</a></footer>
+</body>
+
+</html>

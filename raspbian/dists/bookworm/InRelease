@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: repo.littlegarth.org.uk
+Label: MERG Raspbian Packages
+Codename: bookworm
+Date: Sun, 03 Nov 2024 13:22:31 UTC
+Architectures: armhf
+Components: main
+Description: APT repository for MERG raspbian packages
+MD5Sum:
+ 2f9d919f9f33df8e78e6ca3a196cd5fd 1681 main/binary-armhf/Packages
+ 455e533b42e402383207c24fbb7546c1 850 main/binary-armhf/Packages.gz
+ 1091af4e7fb3ad30a937093075144cc0 153 main/binary-armhf/Release
+SHA1:
+ b469fda2dbe2ef0355e3782d838f2ccb106fe530 1681 main/binary-armhf/Packages
+ e20172f06dd71986205321387b37ce5159cf34e9 850 main/binary-armhf/Packages.gz
+ 6a09efe1945f1d9e646e28392efa737f593c6412 153 main/binary-armhf/Release
+SHA256:
+ b86446fcb7948e078bb492639d82d07653a11d1fa3a8dbb45f7cb439ea7ba910 1681 main/binary-armhf/Packages
+ 6b014de765473e70f8f10df9ece387bf68057cb74543ebc257de1cb680840168 850 main/binary-armhf/Packages.gz
+ 300034a19a12f07bd0997585fd312673683a451c728100f2feb66d2b344b0d54 153 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQQkmO05O0Bg/GXMyvvctnXAENFVqwUCZyd5RQAKCRDctnXAENFV
+qxcHAP99McWEbot5/gCI/tYjB3ZEkDBkeval6dhN5DNueiTJdQEAvPytOM2WFtJ/
+v9Zo1qycZizZcmBJxgT29ktv4efApgM=
+=9m6N
+-----END PGP SIGNATURE-----

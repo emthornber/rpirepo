@@ -1,0 +1,5 @@
+verbose
+basedir /mnt/RPiSSD1/repository/apt/raspbian
+component main
+priority optional
+section misc

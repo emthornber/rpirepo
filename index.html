@@ -27,17 +27,17 @@
 		<li>
 			<p>You may need to install the following packages:</p>
 
-			<code> sudo apt-get update</code>&#11168;<br>
-			<code> sudo apt-get install ca-certificates gpg wget&#11168;</code>
+			<code> sudo apt-get update&#x21B2;</code><br>
+			<code> sudo apt-get install ca-certificates gpg wget&#x21B2;</code>
 		</li>
 
 		<li>
 			<p>Obtain a copy of our signing key:</p>
 
 			<code>
-				wget -O - <a href="https://emthornber.github.io/rpirepo/raspbian/gpg-pubkey.asc">https://emthornber.github.io/raspbian/gpg-pubkey.asc</a> 2&gt;/dev/null |&#11168;<br>
-					gpg --dearmor - |&#11168;<br>
-					sudo tee /usr/share/keyrings/mergdev-archive-keyring.gpg &gt;/dev/null&#11168;
+				wget -O - <a href="https://emthornber.github.io/rpirepo/raspbian/gpg-pubkey.asc">https://emthornber.github.io/rpirepo/raspbian/gpg-pubkey.asc</a> 2&gt;/dev/null |&#x21B2;<br>
+					gpg --dearmor - |&#x21B2;<br>
+					sudo tee /usr/share/keyrings/mergdev-archive-keyring.gpg &gt;/dev/null&#x21B2;
 			</code>
 		</li>
 
@@ -48,9 +48,9 @@
 			<p>For For Raspbian bookworm:</p>
 
 			<code>
-				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://emthornber.github.io/rpirepo/raspbian/ bookworm main' |&#11168;<br>
-				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#11168;<br>
-				sudo apt-get update&#11168;<br>
+				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://emthornber.github.io/rpirepo/raspbian/ bookworm main' |&#x21B2;<br>
+				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#x21B2;<br>
+				sudo apt-get update&#x21B2;<br>
 			</code>
 		</li>
 	</ol>
@@ -59,7 +59,7 @@
 		package:</p>
 
 	<code>
-		sudo apt-get install autowap&#11168;
+		sudo apt-get install autowap&#x21B2;
 	</code>
 
 	<p>For all questions and concerns, please contact <a href="mailto:mark.thornber@merg.org.uk">mark.thornber@merg.org.uk</a>.

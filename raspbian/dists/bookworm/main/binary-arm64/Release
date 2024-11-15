@@ -1,7 +1,5 @@
+Component: main
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
-Codename: bookworm
-Architectures: armhf arm64
-Components: main
+Architecture: arm64
 Description: Apt repository for MERG raspbian packages
-SignWith: DCB675C010D155AB

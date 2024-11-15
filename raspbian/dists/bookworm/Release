@@ -1,19 +1,28 @@
-Origin: repo.littlegarth.org.uk
+Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Codename: bookworm
-Date: Thu, 07 Nov 2024 12:49:43 UTC
-Architectures: armhf
+Date: Fri, 15 Nov 2024 14:23:39 UTC
+Architectures: armhf arm64
 Components: main
-Description: APT repository for MERG raspbian packages
+Description: Apt repository for MERG raspbian packages
 MD5Sum:
  8ebb705f33313dbe06ae0234ff39206c 1681 main/binary-armhf/Packages
  7d357616271993150a8e2705064ea7c8 848 main/binary-armhf/Packages.gz
  1091af4e7fb3ad30a937093075144cc0 153 main/binary-armhf/Release
+ b9812ceedf809c101443beeab81fe006 578 main/binary-arm64/Packages
+ 18408fdb77dee5d3bbb0868d2dd9cde2 422 main/binary-arm64/Packages.gz
+ 759c1b7f7b10956866df70831b5d166d 158 main/binary-arm64/Release
 SHA1:
  c5a2d205b6f2b40fbcf5eea504f0afde7d5546a9 1681 main/binary-armhf/Packages
  80488bebc10bc7a81ff7f90b4438365af00860a0 848 main/binary-armhf/Packages.gz
  6a09efe1945f1d9e646e28392efa737f593c6412 153 main/binary-armhf/Release
+ 25f283e26a3d5087c907093a9caae21b009ee23e 578 main/binary-arm64/Packages
+ 87861e115ba1f7b85b794c77d4ad11ebf23f18b0 422 main/binary-arm64/Packages.gz
+ 74fcb258ea44a2927851307266acdaa9ab78b694 158 main/binary-arm64/Release
 SHA256:
  6cd32a3e17fd13ee4ce6e7d927286b1c1b06b36ee142c0c7b1643bfb5ea6bd4d 1681 main/binary-armhf/Packages
  0976d7d5b98ad571314995e08d9c7bcefed6fb4ebb4b7cd1ad1d8330bad1d116 848 main/binary-armhf/Packages.gz
  300034a19a12f07bd0997585fd312673683a451c728100f2feb66d2b344b0d54 153 main/binary-armhf/Release
+ 52b16703eafc9ee5565aec752187fd77237773befbd52f2c74023e8ada5b888c 578 main/binary-arm64/Packages
+ d8ac77682e70656cae3a61139c4898c3412d380baf0a362c7cafe9df72536aa4 422 main/binary-arm64/Packages.gz
+ 1910866d44f0a3d26efd6f438cbf8af2ce9b55f28e76a73d4079ccbdb7440503 158 main/binary-arm64/Release

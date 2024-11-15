@@ -1,0 +1,16 @@
+Package: canpi-server
+Version: 1.0.4
+Maintainer: Enchanted Systems Limited
+Architecture: arm64
+Priority: optional
+Section: misc
+Filename: pool/main/c/canpi-server/canpi-server_1.0.4_arm64.deb
+Size: 132180
+SHA256: b040e0e442e9dfe3cba60afe862c8841a2b5ac5eeb35b8145719df14de7c34d7
+SHA1: c335d493941afcf1c22b44cc155199142ea5c7c9
+MD5sum: 85cd9c649ad5412c6ad02477fd50c2a0
+Description: Interface to MERG CBUS via CANPiCAP
+ Copyright: 2024 MERG
+ Interfaces MERG-CANBUS protocol with JMRI Engine Driver application.
+Depends: avahi-daemon, avahi-utils, debconf, can-utils, liblog4cpp5v5
+

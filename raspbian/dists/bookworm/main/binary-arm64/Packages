@@ -14,3 +14,19 @@ Description: Interface to MERG CBUS via CANPiCAP
  Interfaces MERG-CANBUS protocol with JMRI Engine Driver application.
 Depends: avahi-daemon, avahi-utils, debconf, can-utils, liblog4cpp5v5
 
+Package: canpi-web-app-ssr
+Version: 0.1.7
+Maintainer: Enchanted Systems Limited
+Architecture: arm64
+Priority: optional
+Section: misc
+Filename: pool/main/c/canpi-web-app-ssr/canpi-web-app-ssr_0.1.7_arm64.deb
+Size: 2931536
+SHA256: 17248bebf47cc6fad58e0286882856b61329d30afe6882a16be3f43ec9f600a5
+SHA1: 2eb50bbc3eb22cd0f9c98cc7c83dc6c3da1c5d68
+MD5sum: 35f56f94a4debc70dc2d341fbea17da4
+Description: Maintain Hotspot and CanPi configurations
+ Copyright: 2024 MERG
+ Web Application for the maintenance of Hotspot and CanPi configurations
+Depends: debconf
+

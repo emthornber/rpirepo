@@ -1,3 +1,20 @@
+Package: autowap
+Version: 1.0.1
+Maintainer: Enchanted Systems Limited
+Architecture: all
+Priority: optional
+Section: misc
+Filename: pool/main/a/autowap/autowap_1.0.1_all.deb
+Size: 2696
+SHA256: 0713e8fc459a80b50e8fcc453a6230fd668e22a2a4cc3fd3adf30b658588c116
+SHA1: dc74a838fde534c8d7054e02ed6b167133baa695
+MD5sum: 062f28a83afe6fcfc915144789dc2fcc
+Description: Create a WAP on a RPi if home WiFi is not available
+ Copyright: 2023 merg.org.uk
+ A service to set up a WAP if no configured WiFi routers can be found
+Depends: network-manager
+Conflicts: autohs
+
 Package: canpi-server
 Version: 1.0.4
 Maintainer: Enchanted Systems Limited

@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Codename: bookworm
-Date: Tue, 19 Nov 2024 15:48:21 UTC
+Date: Tue, 19 Nov 2024 18:09:44 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
@@ -12,27 +12,27 @@ MD5Sum:
  c61d55d23d85ef84fcc88b867ee2ef3d 1681 main/binary-armhf/Packages
  17b7e9d565af88830f6c72aa247c6380 852 main/binary-armhf/Packages.gz
  1091af4e7fb3ad30a937093075144cc0 153 main/binary-armhf/Release
- 75aa5422ec0b30642a21994f8f2096ed 1128 main/binary-arm64/Packages
- eadf07bade2d5b482bd6652b9b570f18 613 main/binary-arm64/Packages.gz
+ 4f9ddc466396f0fa19ccb9d2203b58c0 1681 main/binary-arm64/Packages
+ 2303cf17797bd9db640e6971900dc96c 850 main/binary-arm64/Packages.gz
  759c1b7f7b10956866df70831b5d166d 158 main/binary-arm64/Release
 SHA1:
  2d1f774ac3c473dd601f47a1b15a9f7bf10791e0 1681 main/binary-armhf/Packages
  e1f1df7d3af7420beb1e840b98f8e9a461008a34 852 main/binary-armhf/Packages.gz
  6a09efe1945f1d9e646e28392efa737f593c6412 153 main/binary-armhf/Release
- 68227d9724f7663cf645820b5b057502063c5d37 1128 main/binary-arm64/Packages
- e2278922837e5de52063e506dd94b70943ebb44b 613 main/binary-arm64/Packages.gz
+ fab46bf1f3a35fe1f7b6b5898326be8bc6c1e488 1681 main/binary-arm64/Packages
+ 8783d3e535b3cfd7b8f0db26923ca6a24bf35a0a 850 main/binary-arm64/Packages.gz
  74fcb258ea44a2927851307266acdaa9ab78b694 158 main/binary-arm64/Release
 SHA256:
  738be9d45c83987c4417bcc5a3700bafe31275992237e2b8bb2502297c24e8f3 1681 main/binary-armhf/Packages
  1b2beb50d47fab2be957b67a7c651b863e6070ad5beaa4a5f045b7b314342904 852 main/binary-armhf/Packages.gz
  300034a19a12f07bd0997585fd312673683a451c728100f2feb66d2b344b0d54 153 main/binary-armhf/Release
- 1e506cf67a769373d68d3f6e8d143503b37e8fa550d24d931ddcee3cdb487d6a 1128 main/binary-arm64/Packages
- e126948624820667dc668fe0ea5d63cffc7b49bc28bfdd3b6e6b04f71040d2a8 613 main/binary-arm64/Packages.gz
+ 1993191e88af802019a707e6196ed79ffa6f4ca434d3f00ee7b1eaf84b2c5fd8 1681 main/binary-arm64/Packages
+ c975b8252d79849927b2bd9b77d2949976f6241b483f2fedac689f49c9f52141 850 main/binary-arm64/Packages.gz
  1910866d44f0a3d26efd6f438cbf8af2ce9b55f28e76a73d4079ccbdb7440503 158 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQQkmO05O0Bg/GXMyvvctnXAENFVqwUCZzyzUQAKCRDctnXAENFV
-q2gMAQD0a2WmreXLlHMCTyKByCf4QxECrHOCppf76tR5RGR/8gEA91y94tY2femV
-zCEwIkMtlzWXqrXJ7aR1j2DeOIhW3gc=
-=bu43
+iHUEARYIAB0WIQQkmO05O0Bg/GXMyvvctnXAENFVqwUCZzzUdQAKCRDctnXAENFV
+q8fOAP4xR4P0dwXu0M8K1UdolRBERzx5ROpfKFiU3rfTBer/KAEAiyOcwbSvWsWM
+xCr1tnKai3p8NXhFrURdheaVRzg+/wQ=
+=CM45
 -----END PGP SIGNATURE-----

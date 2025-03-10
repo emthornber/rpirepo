@@ -1,5 +1,5 @@
 Component: main
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
-Architecture: armhf
+Architecture: arm64
 Description: Apt repository for MERG raspbian packages

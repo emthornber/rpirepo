@@ -1,5 +1,13 @@
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
+Codename: bullseye
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for MERG raspbian packages
+SignWith: DCB675C010D155AB
+
+Origin: emthornber.github.io/rpirepo
+Label: MERG Raspbian Packages
 Codename: bookworm
 Architectures: armhf arm64
 Components: main

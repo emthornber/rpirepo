@@ -14,6 +14,9 @@
 #   07 November, 2024 - E M Thornber
 #   Switch to Github repo
 #
+#   28 January, 2025 - E M Thornber
+#   Added support for Raspbian Bullseye
+#
 ################################################################################
 
 # Apt Repository URL on Github
@@ -81,12 +84,16 @@ then
 fi
 
 case "${release}" in
+bullseye)
+  packages=
+  keyring_packages="ca-certificates gpg wget"
+  ;;
 bookworm)
   packages=
   keyring_packages="ca-certificates gpg wget"
   ;;
 *)
-  echo "Only Raspbian bookworm is supported. Aborting." > /dev/stderr
+  echo "Only Raspbian bullseye (oldstatble) and bookworm (stable) are supported. Aborting." > /dev/stderr
   exit 1
   ;;
 esac

@@ -1,29 +1,38 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: LGMonitor.local
+Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Codename: bullseye
-Date: Tue, 29 Aug 2023 12:35:56 UTC
-Architectures: armhf
+Date: Mon, 10 Mar 2025 12:22:49 UTC
+Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
 MD5Sum:
- a58c46a74a60a8224b296d96e61769f8 559 main/binary-armhf/Packages
- acd52fdbdedc8cda229d6a91ba8240f1 416 main/binary-armhf/Packages.gz
- 3dbcdbea49d28b5c6fd51b4a6ce38b65 145 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 5701cb3ce55169a8b32813f3584dd9c3 158 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 759c1b7f7b10956866df70831b5d166d 158 main/binary-arm64/Release
 SHA1:
- 0ab8ccf09824a01a3deb62f7a0981feae3eebedc 559 main/binary-armhf/Packages
- ba2ce72a14b17d23e1178d3c6cbfa0983cc6a95c 416 main/binary-armhf/Packages.gz
- c006243110e9b390257400589f3ee2ac487a8979 145 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 87e3378547213ef4ead8908223eac920945908b6 158 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 74fcb258ea44a2927851307266acdaa9ab78b694 158 main/binary-arm64/Release
 SHA256:
- c68aa410f5fbfcc71c682cd0e14ed883ec868446867fa3a7858d4cf609a89357 559 main/binary-armhf/Packages
- 0eda706edf05828598fa3f485a2b73875bd119c61be2c3bf32649e0d9d54871d 416 main/binary-armhf/Packages.gz
- 8151fb9cde7b081fe888be26e6dd2fd03089719938dc9ad86d9a0d06c8b770dd 145 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 135724f50da9798e34c56ab61e3369d3bef0bac221cc0c06dad001dd17a40fef 158 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 1910866d44f0a3d26efd6f438cbf8af2ce9b55f28e76a73d4079ccbdb7440503 158 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQQkmO05O0Bg/GXMyvvctnXAENFVqwUCZO3mOQAKCRDctnXAENFV
-q+RbAQD4okSxUjbsWYEpZcQbfZTaUDS6SraWvIKyAA7p6YHYLgEA6U2lmqM8uPS1
-Q/FsuS3GkClNS+uvrvnmOb3TEM8ryQM=
-=EqJl
+iHUEARYIAB0WIQQkmO05O0Bg/GXMyvvctnXAENFVqwUCZ87ZpQAKCRDctnXAENFV
+qwraAPwLGE0j+yAzME3KPziQwX1hyyIzJ8A8gNrzCcGPBydyAAD/dfjb9QFQwvmF
+peDHLXIuOIyK3+bLGIby44L2pN6DdgA=
+=YAR4
 -----END PGP SIGNATURE-----

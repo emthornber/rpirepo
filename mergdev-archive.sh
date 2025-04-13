@@ -17,6 +17,9 @@
 #   28 January, 2025 - E M Thornber
 #   Added support for Raspbian Bullseye
 #
+#   13 April, 2025 - E M Thornber
+#   Use HOME_URL field from os-release to check for 'raspbian'
+#
 ################################################################################
 
 # Apt Repository URL on Github
@@ -74,7 +77,7 @@ then
   unset ID
   . /etc/os-release
 
-  if [ "${ID}" != "raspbian" ]
+  if [ "${ID}" != "raspbian" ] && [ "${ID}" != "debian" ]
   then
     echo "This is not a Raspbian system. Aborting." > /dev/stderr
     exit 1
@@ -93,7 +96,7 @@ bookworm)
   keyring_packages="ca-certificates gpg wget"
   ;;
 *)
-  echo "Only Raspbian bullseye (oldstatble) and bookworm (stable) are supported. Aborting." > /dev/stderr
+  echo "Only Raspbian bullseye (oldstable) and bookworm (stable) are supported. Aborting." > /dev/stderr
   exit 1
   ;;
 esac

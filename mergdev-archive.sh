@@ -18,7 +18,7 @@
 #   Added support for Raspbian Bullseye
 #
 #   13 April, 2025 - E M Thornber
-#   Use HOME_URL field from os-release to check for 'raspbian'
+#   Check ID for 'debian' as well as 'raspbian'
 #
 ################################################################################
 

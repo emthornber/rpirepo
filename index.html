@@ -15,17 +15,26 @@
 <body>
 	<h1>MERG-DEV APT Repository</h1>
 
-	<p>The APT repository of the Model Electonic Railway Group, which is used for hosting Raspbian packages.</p>
+	<p>The APT repository of the Model Electonic Railway Group, which is used
+		for hosting Raspbian packages.</p>
 
-	<p>The current support is for Raspbian Bullseye (Debian 11) and
-		Bookworm (Debian 12) in our repository. The repositories support ARM
-		(32-bit) and ARM64 (64-bit).</p>
+	<p>The current support is for Raspbian Bookworm (Debian 12) in our
+		repository. The repositories support ARM (32-bit) and ARM64 (64-bit).</p>
 
-	<p>To add the repository to your installation, run the
+	<p>To add the repository to your installation, click on the
 		<a href="mergdev-archive.sh" download>mergdev-archive.sh</a>
-		script, or do the following in order:
+		script to download it. After the download has completed, open a
+		terminal and execute the script using the following command :
 	</p>
 
+	<code>
+		sudo sh mergdev-archive.sh&#x21B2;
+	</code>
+
+	<p>This will add the repository to your sources list and install the
+		necessary GPG key.</p>
+
+	<p>Alternativey open a terminal and run the following commands:</p>
 	<ol>
 		<li>
 			<p>You may need to install the following packages:</p>
@@ -48,33 +57,32 @@
 			<p>Add the repository to your sources list and update.</p>
 			<ul>
 				<li>
-					<p>For For Raspbian bullseye:</p>
-
-					<code>
-				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://emthornber.github.io/rpirepo/raspbian/ bullseye main' |&#x21B2;<br>
-				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#x21B2;<br>
-				sudo apt-get update&#x21B2;<br>
-			</code>
-				</li>
-				<li>
 					<p>For For Raspbian bookworm:</p>
 
 					<code>
 				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] https://emthornber.github.io/rpirepo/raspbian/ bookworm main' |&#x21B2;<br>
 				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#x21B2;<br>
 				sudo apt-get update&#x21B2;<br>
-			</code>
+					</code>
 				</li>
 			</ul>
 		</li>
 	</ol>
 
 	<p>Now you can install any package from our APT repository. As an example, try installing the <code>autowap</code>
-		package:</p>
+		package either from the command line:</p>
 
 	<code>
 		sudo apt-get install autowap&#x21B2;
 	</code>
+
+	<p>or using the <strong>Software</strong> application in Raspbian vis</p>
+
+	<code>
+		Raspberry | Preferences | Add / Remove Software
+	</code>
+
+	<p>and searching for <code>autowap</code></p>
 
 	<p>For all questions and concerns, please contact <a
 			href="mailto:mark.thornber@merg.org.uk">mark.thornber@merg.org.uk</a>.</p>

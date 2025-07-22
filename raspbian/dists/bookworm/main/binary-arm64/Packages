@@ -1,14 +1,14 @@
 Package: autowap
-Version: 1.0.4
+Version: 1.0.5
 Maintainer: Enchanted Systems Limited
 Architecture: all
 Priority: optional
 Section: misc
-Filename: pool/main/a/autowap/autowap_1.0.4_all.deb
-Size: 3616
-SHA256: 106163c32862fe23b7a5f9f346607ab465296b9b85227d2f7b848acf28d3ca34
-SHA1: 88e87d3bac210cf921cd9e46c7ac08a9c1918896
-MD5sum: 61ee644d2d22c5393624195520972c47
+Filename: pool/main/a/autowap/autowap_1.0.5_all.deb
+Size: 3608
+SHA256: a25e46d3e0368fe8a6fd2a28b73efdf941c8db93796e69b58e204c51eef6afd3
+SHA1: d014a2aac32ee9a7ad4b9fbed7882e5243b0e93c
+MD5sum: cf813f9559e3fd8406fef31027285e41
 Description: Create a WAP on a RPi if home WiFi is not available
  Copyright: 2024 merg.org.uk
  A service to set up a WAP if no configured WiFi routers can be found

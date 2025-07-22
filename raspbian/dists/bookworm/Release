@@ -1,28 +1,28 @@
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Codename: bookworm
-Date: Sun, 09 Mar 2025 14:40:44 UTC
+Date: Tue, 22 Jul 2025 13:05:52 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
 MD5Sum:
- c1fb8dccc03071993c97f24c4dd26206 1681 main/binary-armhf/Packages
- e1cb7a7b3b53ce6f83fdf52578fe2471 852 main/binary-armhf/Packages.gz
- 1091af4e7fb3ad30a937093075144cc0 153 main/binary-armhf/Release
- f105a00aaf21d487821651d5f04275a9 1681 main/binary-arm64/Packages
- 14d5ce4a2db052dfe365343f275d6199 852 main/binary-arm64/Packages.gz
+ 60d5ee8f045a6f905f8d880ae7369f9e 1681 main/binary-armhf/Packages
+ a6f26f2b1583acfce79e250e955d7cd4 851 main/binary-armhf/Packages.gz
+ 5701cb3ce55169a8b32813f3584dd9c3 158 main/binary-armhf/Release
+ 85a6383ea0b904fa69d98e9793cdc157 1681 main/binary-arm64/Packages
+ 1588232277507a591e0de2477113041d 852 main/binary-arm64/Packages.gz
  759c1b7f7b10956866df70831b5d166d 158 main/binary-arm64/Release
 SHA1:
- 361588890f58ce11186326cf5ad43724f737cf8d 1681 main/binary-armhf/Packages
- ed1725477bdcb9051ca60d1e11bd9533d2515434 852 main/binary-armhf/Packages.gz
- 6a09efe1945f1d9e646e28392efa737f593c6412 153 main/binary-armhf/Release
- 5651eeec1895ee2900177fe0c58c454738e2945d 1681 main/binary-arm64/Packages
- dacf7e2e750ed081258a5c7a05770fb57993a09f 852 main/binary-arm64/Packages.gz
+ 7e3e2a196a46da23762cbf37c19f7a10c995bde7 1681 main/binary-armhf/Packages
+ e15d4527684834d2cba59d460fa463b766a35f5d 851 main/binary-armhf/Packages.gz
+ 87e3378547213ef4ead8908223eac920945908b6 158 main/binary-armhf/Release
+ bd77e018f2d273dc95d711a41dcbe5d5e0e9f5f2 1681 main/binary-arm64/Packages
+ ac45fbbaa5d6224fd70f6af9d59488ad2eb34fd4 852 main/binary-arm64/Packages.gz
  74fcb258ea44a2927851307266acdaa9ab78b694 158 main/binary-arm64/Release
 SHA256:
- a50de8c64ad3a53bd77b7995f3e031a87fbc025fd4e2989a05109188649cfb80 1681 main/binary-armhf/Packages
- ce6d118023edff99dcc876537e6be8ae3551837ee4fb7fe971c1cc4a668e57cc 852 main/binary-armhf/Packages.gz
- 300034a19a12f07bd0997585fd312673683a451c728100f2feb66d2b344b0d54 153 main/binary-armhf/Release
- fe2b7c08015df5aa1f2965058cb2ea54f7a8c3aeabc775c745f89b91ed81ced6 1681 main/binary-arm64/Packages
- 23a8a6f3414efefe3a1ae706cf853a0ce7295acd72ca5fd4e30b8f39cdb9568f 852 main/binary-arm64/Packages.gz
+ d05a3e8b9b0d8d2d2ed07a4b8b337aefa0d004c846e57be075792cd32019942a 1681 main/binary-armhf/Packages
+ f2c4e35991eb4953d33386683db58cfa42eb20d61db353b1d988371717ca465f 851 main/binary-armhf/Packages.gz
+ 135724f50da9798e34c56ab61e3369d3bef0bac221cc0c06dad001dd17a40fef 158 main/binary-armhf/Release
+ 98a54192823010062244cf4df3ea2276faa5e433c37aa8f96402f84e89f126a0 1681 main/binary-arm64/Packages
+ b8f8836c3ad39c659bc443b299bc55a53b36629af308d2acace623bca15df4e5 852 main/binary-arm64/Packages.gz
  1910866d44f0a3d26efd6f438cbf8af2ce9b55f28e76a73d4079ccbdb7440503 158 main/binary-arm64/Release

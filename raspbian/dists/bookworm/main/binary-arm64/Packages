@@ -32,18 +32,18 @@ Description: Interface to MERG CBUS via CANPiCAP
 Depends: avahi-daemon, avahi-utils, debconf, can-utils, liblog4cpp5v5
 
 Package: canpi-web-app-ssr
-Version: 0.1.8
+Version: 0.1.9
 Maintainer: Enchanted Systems Limited
 Architecture: arm64
 Priority: optional
 Section: misc
-Filename: pool/main/c/canpi-web-app-ssr/canpi-web-app-ssr_0.1.8_arm64.deb
-Size: 2924928
-SHA256: ca9bdfb1054ba1a366cd2cae6f03e94f3798e2810003ab965109a31d4be4f461
-SHA1: 5c5721c39b458adba20d76db184493020322cea4
-MD5sum: 3fd67c8d80883c315ea15813564a7192
+Filename: pool/main/c/canpi-web-app-ssr/canpi-web-app-ssr_0.1.9_arm64.deb
+Size: 3046092
+SHA256: ceb8fc60588b3af139b62bf68113656278d6c2eddd7b170d237fc468ec873f78
+SHA1: 36df86b1cc470234b974aead0cdc26d226e95d8d
+MD5sum: 5b5aa3a1417086046e72b2520daa2e41
 Description: Maintain Hotspot and CanPi configurations
- Copyright: 2024 MERG
+ Copyright: 2024-2025 MERG
  Web Application for the maintenance of Hotspot and CanPi configurations
 Depends: debconf
 

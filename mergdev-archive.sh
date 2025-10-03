@@ -20,10 +20,17 @@
 #   13 April, 2025 - E M Thornber
 #   Check ID for 'debian' as well as 'raspbian'
 #
+#   27 September, 2025 - E M Thornber
+#   Updated with new repository signing key
+#
 ################################################################################
 
 # Apt Repository URL on Github
 REPOURL="https://emthornber.github.io/rpirepo"
+# Public Key file name
+KEYFILE="gpg-pubkey2.asc"
+# Keyring file name
+KEYRINGFILE="mergdev-archive-keyring2.gpg"
 
 # -e - exit immediately if a command exits with non-zero status
 # -u - treat unset variables as an error when substituting
@@ -102,7 +109,7 @@ bookworm)
 esac
 
 get_keyring=
-if [ ! -f /usr/share/keyrings/mergdev-archive-keyring.gpg ]
+if [ ! -f /usr/share/keyrings/${KEYRINGFILE} ]
 then
   packages="${packages} ${keyring_packages}"
   get_keyring=1
@@ -115,8 +122,8 @@ apt-get update
 # shellcheck disable=SC2086
 apt-get install -y ${packages}
 
-test -n "${get_keyring}" && (wget -O - ${REPOURL}/raspbian/gpg-pubkey.asc 2>/dev/null | gpg --dearmor - > /usr/share/keyrings/mergdev-archive-keyring.gpg)
+test -n "${get_keyring}" && (wget -O - ${REPOURL}/raspbian/${KEYFILE} 2>/dev/null | gpg --dearmor - > /usr/share/keyrings/${KEYRINGFILE})
 
-echo "deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring.gpg] ${REPOURL}/raspbian/ ${release} main" > /etc/apt/sources.list.d/mergdev.list
+echo "deb [signed-by=/usr/share/keyrings/${KEYRINGFILE}] ${REPOURL}/raspbian/ ${release} main" > /etc/apt/sources.list.d/mergdev.list
 
 apt-get update

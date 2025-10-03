@@ -4,7 +4,7 @@ Codename: bullseye
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
-SignWith: DCB675C010D155AB
+SignWith: AB16465C8DE5B60B
 
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
@@ -12,4 +12,4 @@ Codename: bookworm
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
-SignWith: DCB675C010D155AB
+SignWith: AB16465C8DE5B60B

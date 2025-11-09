@@ -4,35 +4,35 @@ Hash: SHA256
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Codename: bookworm
-Date: Sat, 27 Sep 2025 13:05:29 UTC
+Date: Sun, 09 Nov 2025 12:52:40 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
 MD5Sum:
- 54a02fa715eafcaf7b2420ed73c2630b 1688 main/binary-armhf/Packages
- 39fa55b1f420340dddb5f1f57901a68a 859 main/binary-armhf/Packages.gz
+ 3eecaf2d2f183289901f0f5181125856 1686 main/binary-armhf/Packages
+ 93387610bb095b206f39ac72cbdbd095 858 main/binary-armhf/Packages.gz
  5701cb3ce55169a8b32813f3584dd9c3 158 main/binary-armhf/Release
- 1eeac34bf1236146ee92bd27b245cfd9 1688 main/binary-arm64/Packages
- 1d5d9f93d173f752e68a359e9d8cf770 857 main/binary-arm64/Packages.gz
+ e2cb7b0716c30937e3572eb40e268ca9 1686 main/binary-arm64/Packages
+ 9a8b6cac8da1d8b463240614df1511c2 858 main/binary-arm64/Packages.gz
  759c1b7f7b10956866df70831b5d166d 158 main/binary-arm64/Release
 SHA1:
- 88b5e0b0d174bdada39dc763d60a3782b9542bce 1688 main/binary-armhf/Packages
- bddc98ad1ebf2877701a70e04b362962f6d5cb49 859 main/binary-armhf/Packages.gz
+ 13aa2c86f926bbcddbd5912b940740926bfd0eb0 1686 main/binary-armhf/Packages
+ bc7a091c38416fb1aa051b08bfbce5bf061df6e5 858 main/binary-armhf/Packages.gz
  87e3378547213ef4ead8908223eac920945908b6 158 main/binary-armhf/Release
- d1c8943931e22821c94b470eb2763d8d49485230 1688 main/binary-arm64/Packages
- 89992cd61cee4fc58fceceb77e80c67eb610f358 857 main/binary-arm64/Packages.gz
+ 55a80141cf6ff3bcb61c6864a698e9d2c1f85297 1686 main/binary-arm64/Packages
+ dc777db67b718b985252096973ae80f1eb7261a6 858 main/binary-arm64/Packages.gz
  74fcb258ea44a2927851307266acdaa9ab78b694 158 main/binary-arm64/Release
 SHA256:
- 27fe399e53e28e74472bb857871bf4bbe1413a5bc07bb7a096314ef4c0ac9a3e 1688 main/binary-armhf/Packages
- fb7245845a755d52e63a745158c325e690b272dff741e7b2f7a2ab46fb604a2d 859 main/binary-armhf/Packages.gz
+ 3283fd0117870a5a6aec1c826e25e4b0ed809e782372dafd899c2d6f0dc1951c 1686 main/binary-armhf/Packages
+ 9f653154f32b521cf2180d60444c4cc913c3b6c15e2a41252c0b820fee9cf209 858 main/binary-armhf/Packages.gz
  135724f50da9798e34c56ab61e3369d3bef0bac221cc0c06dad001dd17a40fef 158 main/binary-armhf/Release
- 674812b9426683ba4155d1096f597c3f56e81ea1835cb8cb568416bd09958d9c 1688 main/binary-arm64/Packages
- 90c6c59319519cea87d4ec5184044c3b700cff946a79f58187e8f7fdd2209c0d 857 main/binary-arm64/Packages.gz
+ 8077bb45eec5796f263e27bfa7963a794d6c61831170fdb43f55092d8dee6836 1686 main/binary-arm64/Packages
+ 2206dd32395c685c4b90f9f99cd24340113a56b42179c4d501dd570b87168d65 858 main/binary-arm64/Packages.gz
  1910866d44f0a3d26efd6f438cbf8af2ce9b55f28e76a73d4079ccbdb7440503 158 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRb+hoFNs+5qNTiyfOrFkZcjeW2CwUCaNfhKAAKCRCrFkZcjeW2
-C/tZAQCaNzHuL5Rw8QZpvmRTafo5RJT9s3h9i7P2Lbc6M78o0QEA+RhNTYxmd4D9
-G/FpDxyCUsgrVE/NGY7nifPy+mCxVw4=
-=auSN
+iHUEARYIAB0WIQRb+hoFNs+5qNTiyfOrFkZcjeW2CwUCaRCOmAAKCRCrFkZcjeW2
+C0vLAP97/JoB2fHNrSwwV1lKyEwT6s6499T8M64+omAe5YiyEQD/cSQeXOHaXcwl
+iMcN3rKARAWWKA2vJxp7DKb31Hd/gQg=
+=dC5U
 -----END PGP SIGNATURE-----

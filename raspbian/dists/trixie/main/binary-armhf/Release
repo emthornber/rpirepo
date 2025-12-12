@@ -1,6 +1,6 @@
-Archive: oldstable
+Archive: stable
 Component: main
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
-Architecture: arm64
+Architecture: armhf
 Description: Apt repository for MERG raspbian packages

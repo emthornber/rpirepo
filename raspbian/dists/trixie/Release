@@ -1,0 +1,41 @@
+Origin: emthornber.github.io/rpirepo
+Label: MERG Raspbian Packages
+Suite: stable
+Codename: trixie
+Date: Mon, 17 Nov 2025 11:44:20 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for MERG raspbian packages
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ eefbabf80b19974a5e53ffd98ded32e5 174 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 8461b7cfd75230db5dd3cd7ff3c4d532 174 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/Contents-armhf
+ 7029066c27ac6f5ef18d660d5741979a 20 main/Contents-armhf.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/Contents-arm64
+ 7029066c27ac6f5ef18d660d5741979a 20 main/Contents-arm64.gz
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 61a79bb700fd05e284478566da07dfe576259065 174 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ df1a472221ca80ba82a9b82005fcdeaf97bece74 174 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/Contents-armhf
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/Contents-armhf.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/Contents-arm64
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/Contents-arm64.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 8ab1abcf4b01ba90ca0653f4d820d9afb49ea4074f0a3312b25b0e7d80038708 174 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 740e7731f25220d30f224dc1066408a9440c57deac03b7dc9e0a6ef1fdb1de99 174 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/Contents-armhf
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/Contents-armhf.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/Contents-arm64
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/Contents-arm64.gz

@@ -15,11 +15,11 @@
 <body>
 	<h1>MERG-DEV APT Repository</h1>
 
-	<p>The APT repository of the Model Electonic Railway Group, which is used
+	<p>An APT repository of the Model Electonic Railway Group, which is used
 		for hosting Raspbian packages.</p>
 
-	<p>The current support is for Raspbian Bookworm (Debian 12) in our
-		repository. The repositories support ARM (32-bit) and ARM64 (64-bit).</p>
+	<p>The repository contains Raspbian Bookworm (Debian 12) packages
+		for ARM (32-bit) and ARM64 (64-bit).</p>
 
 	<p>To add the repository to your installation, click on the
 		<a href="mergdev-archive.sh" download>mergdev-archive.sh</a>
@@ -55,17 +55,12 @@
 
 		<li>
 			<p>Add the repository to your sources list and update.</p>
-			<ul>
-				<li>
-					<p>For For Raspbian bookworm:</p>
 
-					<code>
+			<code>
 				echo 'deb [signed-by=/usr/share/keyrings/mergdev-archive-keyring2.gpg] https://emthornber.github.io/rpirepo/raspbian/ bookworm main' |&#x21B2;<br>
 				sudo tee /etc/apt/sources.list.d/mergdev.list &gt;/dev/null&#x21B2;<br>
 				sudo apt-get update&#x21B2;<br>
-					</code>
-				</li>
-			</ul>
+			</code>
 		</li>
 	</ol>
 

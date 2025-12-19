@@ -7,13 +7,3 @@ SignWith: AB16465C8DE5B60B
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Description: Apt repository for MERG raspbian packages
-
-Codename: trixie
-Suite: stable
-Architectures: armhf arm64
-Components: main
-Contents:
-SignWith: AB16465C8DE5B60B
-Origin: emthornber.github.io/rpirepo
-Label: MERG Raspbian Packages
-Description: Apt repository for MERG raspbian packages

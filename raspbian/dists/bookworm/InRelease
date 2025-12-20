@@ -5,47 +5,47 @@ Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
 Suite: oldstable
 Codename: bookworm
-Date: Fri, 19 Dec 2025 09:10:39 UTC
+Date: Sat, 20 Dec 2025 12:38:36 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for MERG raspbian packages
 MD5Sum:
- 4323733d232f5e8ced79ee4b68acce2c 1688 main/binary-armhf/Packages
- bf4d3bd22132554c59b01ae75f220614 866 main/binary-armhf/Packages.gz
+ 52f91e0215af238032b5aa4d209644e9 1689 main/binary-armhf/Packages
+ 7d879ce851e5ea3965fcf8d85ac38967 856 main/binary-armhf/Packages.gz
  96f2cc9813deaf787c62e04ec709de8f 177 main/binary-armhf/Release
- 02c35ee61f368a60b0e1e148e978704b 1688 main/binary-arm64/Packages
- d9dcbd6fe86d29c2c71bbf4a429a0d88 866 main/binary-arm64/Packages.gz
+ d0073994e5864d11b7de4bea61ca490e 1689 main/binary-arm64/Packages
+ d275ff6f3d80bf87611bdc1ce7494373 855 main/binary-arm64/Packages.gz
  679bc30c029da124ee51702396c5be4b 177 main/binary-arm64/Release
- 8f4b78b508d07862fea90f2ac3db2d77 3172 main/Contents-armhf
- c6c6911378fa8365230d01b4e7678a1a 497 main/Contents-armhf.gz
- 8f4b78b508d07862fea90f2ac3db2d77 3172 main/Contents-arm64
- c6c6911378fa8365230d01b4e7678a1a 497 main/Contents-arm64.gz
+ 47a50f36f9f32460f7fe91e84c28295a 3181 main/Contents-armhf
+ d6cc3fd3dfab5d06275284c997f4b666 498 main/Contents-armhf.gz
+ 47a50f36f9f32460f7fe91e84c28295a 3181 main/Contents-arm64
+ d6cc3fd3dfab5d06275284c997f4b666 498 main/Contents-arm64.gz
 SHA1:
- 66bc84e9aa658d17fa2609d9723b75c6f6071880 1688 main/binary-armhf/Packages
- 689b2381121bbb6e6a96bf4101c1e0c1a8c11bf0 866 main/binary-armhf/Packages.gz
+ c35c835005c2f279400ba9b2153809a4c7099225 1689 main/binary-armhf/Packages
+ 54f9e33483d1dc105794cdda1c056c4ddcf03e64 856 main/binary-armhf/Packages.gz
  3a04fea1ccb6e099adc0a399a5ac83ac4c1354bc 177 main/binary-armhf/Release
- bef5b48a0408c16a1ab7783b240d7ddac0ef9e26 1688 main/binary-arm64/Packages
- 130e58d84f6f7aafefaaa9d63ef23a1c4e715472 866 main/binary-arm64/Packages.gz
+ 3899456cb8a36d1a7f6099113421dc392d344c51 1689 main/binary-arm64/Packages
+ 40a09188b84c5e08eea61078fb5bfacea95fb4dd 855 main/binary-arm64/Packages.gz
  c21e149ea46d0dcd2c819194cdc260f2c0486c30 177 main/binary-arm64/Release
- 682fdcf781247920e0d1c636c0923dccc5ce4c89 3172 main/Contents-armhf
- 0be944210891379d664d7ff456727a41bb032eda 497 main/Contents-armhf.gz
- 682fdcf781247920e0d1c636c0923dccc5ce4c89 3172 main/Contents-arm64
- 0be944210891379d664d7ff456727a41bb032eda 497 main/Contents-arm64.gz
+ a2bd0665e7da8c32879acb611c885e807dbdf990 3181 main/Contents-armhf
+ cf4e0d848429c741e6d04e8e998c8f159b8dae37 498 main/Contents-armhf.gz
+ a2bd0665e7da8c32879acb611c885e807dbdf990 3181 main/Contents-arm64
+ cf4e0d848429c741e6d04e8e998c8f159b8dae37 498 main/Contents-arm64.gz
 SHA256:
- 01712f76f5194642b88174087d505aa15e9186d8f0aad7fdcad7f3069aeaef45 1688 main/binary-armhf/Packages
- dba7f2df84da3820e7976a261a95f759a7dcb8c18297a76c0c9aaba86a3163df 866 main/binary-armhf/Packages.gz
+ 10d6802d8ce9ee4ea0796f23f9f4325e363afb565b6b883cd1896bd3540ad0c3 1689 main/binary-armhf/Packages
+ 771f7467b9b488384298e6c2b16ddeef1ff49a607a3700b9a556011fb6690a80 856 main/binary-armhf/Packages.gz
  a876cc55fcc653e34ae9d49c5914e451bebd62d4199abd2b2673803f69a22082 177 main/binary-armhf/Release
- a45d975a644ed40887f0d9a123c7cb74e7ba51c0efdeb961b57077c7244f3799 1688 main/binary-arm64/Packages
- 4e72e3216ee2d0d66eef626fb1750a1427fbbc1cc65e14b0825edb30792ad97b 866 main/binary-arm64/Packages.gz
+ 31b25b361bd72c225cd8d3dc28aed30fe34e2c0443a459663102cd3cff8faa8c 1689 main/binary-arm64/Packages
+ 09a53833d7e65913add0dff436d146c68979aa257948bdfa8585a121d9dcfc9d 855 main/binary-arm64/Packages.gz
  db3fff0be7d584b5a92b06d9b86407e7958e4e8aee90ebd4ba10b345596a3125 177 main/binary-arm64/Release
- 9d8912944086f496b34276703599e3c39b7831ae599ca01bf62ee134b0e6a0fd 3172 main/Contents-armhf
- a1d11187303cd320474dbe195facfcf15a588304ea49730f565b12000e4c8d4b 497 main/Contents-armhf.gz
- 9d8912944086f496b34276703599e3c39b7831ae599ca01bf62ee134b0e6a0fd 3172 main/Contents-arm64
- a1d11187303cd320474dbe195facfcf15a588304ea49730f565b12000e4c8d4b 497 main/Contents-arm64.gz
+ b7dca6e641e6c71646beba8658d261b27d764669cdbad5725e8ca07d5d452ba2 3181 main/Contents-armhf
+ 0cd575a925dd7b8e67ca17fb63983c2744a597e698e4c86c30e4e260188c738b 498 main/Contents-armhf.gz
+ b7dca6e641e6c71646beba8658d261b27d764669cdbad5725e8ca07d5d452ba2 3181 main/Contents-arm64
+ 0cd575a925dd7b8e67ca17fb63983c2744a597e698e4c86c30e4e260188c738b 498 main/Contents-arm64.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRb+hoFNs+5qNTiyfOrFkZcjeW2CwUCaUUWmQAKCRCrFkZcjeW2
-C/mVAP4m8pVRkxrlnY8CeZcA/PkJlNdOTbJrap/tT2DTU2R+ugD/SG9lAdXprrnC
-nD4V8E+XLthOzQ7/J2AHavZrxzdXgAQ=
-=1XfJ
+iHUEARYIAB0WIQRb+hoFNs+5qNTiyfOrFkZcjeW2CwUCaUaYzAAKCRCrFkZcjeW2
+CzlwAP0crpSz2GfF2LyCdjrOVhUkgm90CtJUFUDQE1RzqSLA7wD8CjY7/jKshNh+
+5CNM0LNwHEWC1iHtC2qv+Lt+EuP+JwU=
+=u8p1
 -----END PGP SIGNATURE-----

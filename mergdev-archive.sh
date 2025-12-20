@@ -94,16 +94,12 @@ then
 fi
 
 case "${release}" in
-bullseye)
-  packages=
-  keyring_packages="ca-certificates gpg wget"
-  ;;
 bookworm)
   packages=
   keyring_packages="ca-certificates gpg wget"
   ;;
 *)
-  echo "Only Raspbian bullseye (oldstable) and bookworm (stable) are supported. Aborting." > /dev/stderr
+  echo "Only Raspbian bookworm (oldstable) is supported. Aborting." > /dev/stderr
   exit 1
   ;;
 esac

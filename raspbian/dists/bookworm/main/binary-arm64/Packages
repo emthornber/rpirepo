@@ -16,16 +16,16 @@ Depends: network-manager
 Conflicts: autohs
 
 Package: canpi-server
-Version: 1.1.2
+Version: 1.1.3
 Maintainer: Enchanted Systems Limited
 Architecture: arm64
 Priority: optional
-Section: misc
-Filename: pool/main/c/canpi-server/canpi-server_1.1.2_arm64.deb
-Size: 134828
-SHA256: 92d2f67a3482f2ba40c22faebe6c5e4717e2bc8e4f70441dc9d31f62a96103eb
-SHA1: 4b99d0148c01a1c3055425b72a8c556d4465de23
-MD5sum: 3e6431a6332b548677aacbe2c0f5db67
+Section: utils
+Filename: pool/main/c/canpi-server/canpi-server_1.1.3_arm64.deb
+Size: 134880
+SHA256: 6a04c679bd4104ef04276f15e23e9595fa06bf887454f25ecea62d1c5e170314
+SHA1: a8e00d9be1514fb47c01437fbfb3d0d346101afd
+MD5sum: f83d9c2b8f9996b26287605d1e984654
 Description: Interface to MERG CBUS via CANPiCAP
  Copyright: 2024 MERG
  Interfaces MERG-CANBUS protocol with JMRI Engine Driver application.

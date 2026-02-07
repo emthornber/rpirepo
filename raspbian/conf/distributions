@@ -6,4 +6,4 @@ Contents:
 SignWith: AB16465C8DE5B60B
 Origin: emthornber.github.io/rpirepo
 Label: MERG Raspbian Packages
-Description: Apt repository for MERG raspbian packages
+Description: Apt repository for MERG raspbian bookworm packages
